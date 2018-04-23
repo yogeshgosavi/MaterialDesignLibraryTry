@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.codekul.materialdesignlibrary.MainActivity">
+
+
+            <com.gc.materialdesign.views.ButtonFlat
+                android:id="@+id/buttonflat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                android:text="Button" />
+        <com.gc.materialdesign.views.ButtonRectangle
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:background="#1E88E5"
+        android:text = "HELLO"
+        android:layout_height="wrap_content">
+
+    </com.gc.materialdesign.views.ButtonRectangle>
+
+
+            <com.gc.materialdesign.views.ButtonFloat
+                android:id="@+id/buttonFloat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="24dp"
+                android:background="#1E88E5"
+                materialdesign:animate="true"
+                materialdesign:iconDrawable="@drawable/ic_add" />
+
+            <com.gc.materialdesign.views.CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                materialdesign:check="true" />
+            <com.gc.materialdesign.views.Switch
+                android:id="@+id/switchView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1E88E5"
+                materialdesign:check="true" />
+
+            <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+                android:id="@+id/progressBarCircularIndeterminate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#1E88E5" />
+
+            <com.gc.materialdesign.views.Slider
+                android:id="@+id/slider"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:background="#1E88E5"
+                materialdesign:max="50"
+                materialdesign:min="0"
+                materialdesign:showNumberIndicator="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        tools:layout_editor_absoluteY="246dp"
+        tools:layout_editor_absoluteX="154dp" />
+
+
+
+</LinearLayout>
